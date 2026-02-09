@@ -1,3 +1,7 @@
-*
-!README.md
-!.gitignore
+# *
+# !README.md
+# !.gitignore
+node_modules/
+dist/
+.env
+.env.*
