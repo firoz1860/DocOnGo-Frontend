@@ -3,5 +3,11 @@
 # !.gitignore
 node_modules/
 dist/
+
+# Ignore local/secret env files...
 .env
-.env.*
+.env.local
+.env.*.local
+# ...but keep the committed, non-secret build config files
+!.env.example
+!.env.production
